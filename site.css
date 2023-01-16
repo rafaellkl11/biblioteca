@@ -1,0 +1,221 @@
+body {
+    background-color: #2D0042;
+}
+
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 100px;
+    flex-direction: row;
+    border-bottom: solid 5px white;
+    background-color: black;
+    size-adjust: auto;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo img {
+    height: 200px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0%;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.menu a {
+    padding-left: 20px;
+    padding-top: 20%;
+    color: white;
+}
+
+li {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.autenticacao {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: relative;
+    padding-left: 300px;
+    left: 20%;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.autenticacao a {
+    padding-left: 20px;
+    padding-top: 20%;
+    color: whitesmoke;
+}
+
+.botaodestaque {
+    position: relative;
+    padding-right: 100px;
+}
+
+.button {
+    order:1;
+    align-self:center;
+    margin:20px;
+    padding:10px;
+    width:45px;
+    background-color:teal;
+    color:white;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+.buttonp{
+    border:1px solid #0b7dda;
+    right: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    border-radius: 10px 0px 0px 10px;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #7C2AE8;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.searchbutton {
+    border-radius: 5px 5px;
+}
+
+.searchbutton::placeholder {
+    font-weight: lighter;
+}
+a:link{
+    text-decoration:none;
+    color:white
+}
+.pagina {
+    margin-top: 120px;
+    color: white;
+    margin-left: 200px;
+}
+
+.emalta {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+.recentes {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.famosos {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+
+.livros-img {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.livros {
+    display: flex;
+    justify-content:baseline;
+    width: 350px;
+    background-color:rgb(31, 31, 31);
+    border: 1px solid rgb(88, 88, 88); 
+    border-radius: 5px;
+}
+.sobre{
+    height: 300px;   
+}
+.title{
+    height: 20px;
+}
+.font-{
+    overflow-y:scroll;
+    font-size: 14px;
+    height: 160px;
+}
+.font-::-webkit-scrollbar{
+    width: 3px;
+}
+.font-::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 10px;
+}
+.btn{
+    color:white;
+    background-color: rgb(80, 79, 79);
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-bottom: 100px;
+}
+#rodape{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+ 
+}
